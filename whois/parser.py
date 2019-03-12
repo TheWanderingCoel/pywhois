@@ -104,7 +104,7 @@ class WhoisEntry(dict):
         'expiration_date':      'Expir\w+ Date: *(.+)',
         'name_servers':         'Name Server: *(.+)',  # list of name servers
         'status':               'Status: *(.+)',  # list of statuses
-        'phone':                'Registrant Phone: *(.+)'
+        'phone':                'Registrant Phone: *(.+)',
         'emails':               EMAIL_REGEX,  # list of email s
         'dnssec':               'dnssec: *([\S]+)',
         'name':                 'Registrant Name: *(.+)',
